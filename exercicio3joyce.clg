@@ -1,0 +1,18 @@
+algoritmo calculator;
+// Síntese
+//  Objetivo:  Construa um algoritmo que calcule a média aritmética de 3 números quaisquer fornecidos pelo usuário.
+//  Entrada :3 numeros quaisquer .
+//  Saída   :media aritmetica de 3 numeros quaisquer.
+principal
+	// Declarações
+real numero1,numero2,numero3,media;
+	// Instruções
+escreva ("insira aqui primeiro numero ");
+leia(numero1);
+escreva ("insira aqui segundo numero ");
+leia(numero2);
+escreva ("insira aqui terceiro numero ");
+leia(numero3);
+media=(numero1+numero2+numero3)/3;
+escreval("media dos numeros",media);
+fimPrincipal

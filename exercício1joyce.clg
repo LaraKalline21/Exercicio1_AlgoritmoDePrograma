@@ -1,0 +1,18 @@
+algoritmo oCloock;
+// Síntese
+//  Objetivo:  Transformar horas em minutos.
+//  Entrada :Horas.
+//  Saída   :Segundos.
+
+
+principal
+	// Declarações
+real horas, minuto, segundos;
+	// Instruções
+escreva ("insira aqui o horário");
+leia(horas);
+minuto = horas *60;
+segundos = minuto *60*60;
+escreval(minuto);
+escreval(segundos);
+fimPrincipal

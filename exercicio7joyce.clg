@@ -1,0 +1,35 @@
+algoritmo calculator;
+// Síntese
+//  Objetivo: Escreva um programa que leia o nome do funcionário, o sexo (F ou M), o número de
+//matrícula do funcionário, o número de horas trabalhadas, o valor que recebe por hora
+//e calcule o salário desse funcionário. A seguir, mostre todos os dados na tela, os dados
+//de entrada e os dados de saída.
+//  Entrada : informações dos funcionarios.
+//  Saída   :nome, sexo, numero da matrciula, numero de horas trabalhadas, valor que recebe por hora e
+//salario.
+principal
+	// Declarações 
+	texto nome;
+	caracter sexo;
+	inteiro matricula;
+	inteiro horastrabalhadas;
+	real valorhora, salario;
+	// Instruções
+escreva ("insira aqui nome ");
+leia(nome);
+escreva ("insira aqui sexo (M/F) ");
+leiaCaracter(sexo);
+escreva ("insira aqui matricula ");
+leia(matricula);
+escreva ("insira aqui horas trabalhadas ");
+leia(horastrabalhadas);
+escreva ("insira aqui valor da hora ");
+leia(valorhora);
+salario=horastrabalhadas*valorhora;
+escreval("nome:",nome);
+escreval("sexo:",sexo);
+escreval("matricula:",matricula);
+escreval("horas trabalhadas:",horastrabalhadas);
+escreval("valor hora:",valorhora);
+escreval("salario:",salario);
+fimPrincipal
